@@ -7,4 +7,30 @@ What value do you think it offers?
 The staging area helps you to logically group your files before commiting.
 This will help to group the related files in your code.
 Working directory is where all your files are initially exists.
-Repository is the git repository for version control and track changes.
+Repository is the git repository for version control and track changes.d
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+You can add the changes to staging area by using git add command untill you
+commit all the changes in to the repository. This way you can do one
+commit per logical unit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+Branches are very helpful when you want to try some different approach and
+do not want to disturb the original version of the code.
+It also helpful when you want to create new version.
+
+How do the diagrams help you visualize the branch structure?
+t helps you to visualize how branches and master are connected.
+It also helps how to recover to the previous commit.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+All the required commit changes are present in the master file.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Pros: Merging will help to get up to date version of the code. Automatic merging
+helps to take all the pain of merging.
+cons: it may go wrong as it do not know which code is more important.
