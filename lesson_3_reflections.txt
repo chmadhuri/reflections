@@ -1,1 +1,14 @@
 when would you want to create a new repoistory rather than keeping all the work manually?
+when you want to add your files to github.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+It gives you a chance to pull whatever changes that you wish to move to your
+local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+Fork  - used when you want to copy a repository on the Github
+Clone - used when you want to copy a repository from github to your local computer or between 
+two local computers
+Branch - when you want to do some experiment on the exiting repository 
